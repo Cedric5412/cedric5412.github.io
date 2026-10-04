@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cedric Pizina, PhD student in Statistics and Data Science at Clemson University. Research interests in climate dynamics, climate-data analysis, and statistical modelling.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Cedric Pizina | Statistics &amp; Climate Dynamics</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23171717'/%3E%3Ctext x='32' y='42' text-anchor='middle' fill='white' font-family='Arial,sans-serif' font-size='29'%3ECP%3C/text%3E%3C/svg%3E">
+  <style>
+    :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; color: #171717; background: #fff; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-size: 16px; line-height: 1.75; -webkit-font-smoothing: antialiased; }
+    .page { width: min(100% - 48px, 760px); margin: 0 auto; }
+    a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+    a:hover { color: #666; }
+    a:focus-visible { outline: 2px solid #171717; outline-offset: 5px; border-radius: 2px; }
+    .skip { position: absolute; top: -100px; left: 20px; padding: 8px 16px; background: #171717; color: #fff; }
+    .skip:focus { top: 12px; }
+    header { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 32px 0; border-bottom: 1px solid #e8e8e8; }
+    .brand { font-size: 15px; font-weight: 650; text-decoration: none; letter-spacing: -.4px; }
+    nav { display: flex; gap: 24px; flex-wrap: wrap; font-size: 13px; }
+    nav a { padding: 8px 0; text-decoration: none; color: #555; }
+    nav a:hover { color: #171717; text-decoration: underline; }
+    .intro { padding: 66px 0 48px; }
+    .eyebrow { margin: 0 0 12px; color: #666; font-size: 13px; }
+    h1 { margin: 0 0 14px; font-size: clamp(36px, 7vw, 48px); line-height: 1.16; letter-spacing: -1.9px; font-weight: 650; }
+    .lead { margin: 0; color: #555; font-size: 18px; }
+    .profile-photo { display: block; width: 120px; height: 120px; object-fit: cover; border-radius: 50%; margin-bottom: 20px; }
+    .intro-links { display: flex; align-items: center; flex-wrap: wrap; gap: 16px 22px; margin-top: 24px; font-size: 14px; }
+    .cv-link { display: inline-flex; align-items: center; padding: 8px 14px; border: 1px solid #171717; border-radius: 4px; color: #fff; background: #171717; text-decoration: none; }
+    .cv-link:hover { color: #fff; background: #383838; }
+    section { padding: 32px 0; border-top: 1px solid #e8e8e8; scroll-margin-top: 24px; }
+    h2 { margin: 0 0 17px; font-size: 17px; font-weight: 650; letter-spacing: -.25px; }
+    p { margin: 0; }
+    .about-copy { color: #444; }
+    .about-copy + .about-copy { margin-top: 14px; }
+    .background-row { display: grid; grid-template-columns: 130px 1fr; gap: 24px; padding: 12px 0; }
+    .background-row:first-child { padding-top: 0; }
+    .background-row:last-child { padding-bottom: 0; }
+    dt { color: #666; font-size: 14px; }
+    dd { margin: 0; }
+    dl { margin: 0; }
+    .item-title { font-size: 15px; font-weight: 500; }
+    .item-detail { margin-top: 3px; color: #6b6b6b; font-size: 14px; }
+    .work-item { margin: 0; }
+    .work-item + .work-item { margin-top: 26px; }
+    .work-item h3 { margin: 0 0 5px; font-size: 16px; font-weight: 600; line-height: 1.5; }
+    .work-meta { margin-bottom: 7px; color: #6b6b6b; font-size: 13px; }
+    .work-summary { color: #444; font-size: 15px; }
+    .contact-email { overflow-wrap: anywhere; }
+    .contact-links { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 14px; }
+    .contact-links:empty { display: none; }
+    footer { display: flex; justify-content: space-between; gap: 20px; margin-top: 28px; padding: 24px 0 36px; border-top: 1px solid #e8e8e8; color: #666; font-size: 12px; }
+    footer a { text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+    @media (max-width: 480px) {
+      .page { width: calc(100% - 40px); }
+      header { padding: 22px 0; gap: 20px; }
+      nav { gap: 16px; font-size: 12px; }
+      .intro { padding: 44px 0 36px; }
+      .lead { font-size: 16px; }
+      .background-row { grid-template-columns: 1fr; gap: 3px; padding: 14px 0; }
+      section { padding: 28px 0; }
+    }
+    @media print {
+      .page { width: 100%; max-width: none; }
+      nav, .skip, footer a { display: none; }
+      header { padding-top: 0; }
+      .intro { padding: 30px 0; }
+      section { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="page">
+    <header>
+      <a class="brand" href="#top" aria-label="Cedric Pizina, home">CP.</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#work">Research</a>
+        <a href="#background">Background</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main id="main">
+      <div class="intro">
+        <img src="./profile.jpeg" alt="Portrait of Cedric Pizina" width="120" height="120" class="profile-photo">
+        <p class="eyebrow">Statistics &amp; Data Science · Climate Dynamics</p>
+        <h1>Cedric Pizina</h1>
+        <p class="lead">PhD student in Statistics and Data Science at Clemson University.</p>
+        <div class="intro-links">
+          <a class="cv-link" href="./Cedric_Pizina_CV.pdf" download>Download CV (PDF)</a>
+          <a href="mailto:cedricapplication4s@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/cedric-pizina">LinkedIn</a>
+          <a href="https://github.com/cedric5412">GitHub</a>
+        </div>
+      </div>
+      <section id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About</h2>
+        <p class="about-copy">I am a PhD student in Statistics and Data Science at Clemson University, with an interdisciplinary background in climate physics, mathematical sciences, and hydraulic engineering. My interests lie in climate-data analysis and numerical and statistical modelling.</p>
+        <p class="about-copy">My research experience spans climate teleconnections, drought variability in Southern Africa, and drinking-water systems in Madagascar. I am interested in connecting physical understanding with statistical methods to study climate and environmental questions.</p>
+      </section>
+      <section id="work" aria-labelledby="work-heading">
+        <h2 id="work-heading">Selected research</h2>
+        <article class="work-item">
+          <h3>Understanding the IOD–NAO teleconnection in seasonal forecasts</h3>
+          <p class="work-meta">Postgraduate diploma thesis · ICTP · Sep. 2025 – Aug. 2026</p>
+          <p class="work-summary">I investigated why SEAS5 fails to reproduce the early-winter connection between the Indian Ocean Dipole (IOD) and the North Atlantic Oscillation (NAO). I used partial regression to analyze climate-model output and ran sensitivity experiments with a dry Linear Baroclinic Model to examine the influence of atmospheric mean states.</p>
+        </article>
+        <article class="work-item">
+          <h3>Drought in Southern Africa under ENSO and IOD influences</h3>
+          <p class="work-meta">MSc project · AIMS South Africa · Mar. – Jun. 2025</p>
+          <p class="work-summary">I studied the joint effects of El Niño–Southern Oscillation (ENSO) and the Indian Ocean Dipole on Southern Africa’s climate from 1980 to 2023. The project combined CMIP6 projections of precipitation, temperature, and soil moisture through 2100 with machine-learning forecasts of mean trends in the Southern African Drought Index.</p>
+        </article>
+        <article class="work-item">
+          <h3>Diagnosing Sainte Marie’s drinking-water network</h3>
+          <p class="work-meta">MEng project · University of Antananarivo · Jul. 2023 – May 2024</p>
+          <p class="work-summary">I led site data collection and diagnostic analysis to investigate operational problems in the drinking-water network of Sainte Marie, Madagascar. I developed an EPANET model to assess system performance and proposed improvements to network efficiency.</p>
+        </article>
+      </section>
+      <section id="background" aria-labelledby="background-heading">
+        <h2 id="background-heading">Education</h2>
+        <dl>
+          <div class="background-row">
+            <dt>2026 – Present</dt>
+            <dd>
+              <p class="item-title">PhD in Statistics and Data Science · In progress</p>
+              <p class="item-detail">Clemson University · Clemson, South Carolina</p>
+            </dd>
+          </div>
+          <div class="background-row">
+            <dt>2025 – 2026</dt>
+            <dd>
+              <p class="item-title">Pre-PhD Diploma in Physics of Climate and Earth System Physics</p>
+              <p class="item-detail">International Centre for Theoretical Physics · Trieste, Italy</p>
+            </dd>
+          </div>
+          <div class="background-row">
+            <dt>2024 – 2025</dt>
+            <dd>
+              <p class="item-title">Structured Master’s in Mathematical Sciences</p>
+              <p class="item-detail">AIMS South Africa / Stellenbosch University · Cape Town, South Africa</p>
+            </dd>
+          </div>
+          <div class="background-row">
+            <dt>2022 – 2024</dt>
+            <dd>
+              <p class="item-title">Master of Engineering in Hydraulics and Development</p>
+              <p class="item-detail">École Supérieure Polytechnique d’Antananarivo, University of Antananarivo · Madagascar</p>
+            </dd>
+          </div>
+          <div class="background-row">
+            <dt>2018 – 2021</dt>
+            <dd>
+              <p class="item-title">Bachelor of Engineering in Hydraulics and Fluid Mechanics</p>
+              <p class="item-detail">École Supérieure Polytechnique d’Antananarivo, University of Antananarivo · Madagascar</p>
+            </dd>
+          </div>
+        </dl>
+      </section>
+      <section id="experience" aria-labelledby="experience-heading">
+        <h2 id="experience-heading">Teaching &amp; professional experience</h2>
+        <article class="work-item">
+          <h3>Lab Instructor, Introduction to Statistics (STAT 2300)</h3>
+          <p class="work-meta">Clemson University · Aug. 2026 – Present</p>
+          <p class="work-summary">I conduct weekly laboratory sessions using JMP and grade laboratory assignments.</p>
+        </article>
+        <article class="work-item">
+          <h3>Junior Hydraulic Engineer</h3>
+          <p class="work-meta">GRET Madagascar · Jul. 2023 – May 2024</p>
+          <p class="work-summary">I contributed to drinking-water system designs and watershed protection plans for Ambatofotsy and Vinaninony. My work included field measurements of flow, pressure, and water quality, survey development, and on-site quality controls.</p>
+        </article>
+      </section>
+      <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <p>Based in Central, South Carolina.</p>
+        <p class="contact-email"><a href="mailto:cedricapplication4s@gmail.com">cedricapplication4s@gmail.com</a></p>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/cedric-pizina">LinkedIn</a>
+          <a href="https://github.com/cedric5412">GitHub</a>
+          <a href="./Cedric_Pizina_CV.pdf">View CV (PDF)</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <span>Cedric Pizina</span>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+  </div>
+</body>
+</html>
